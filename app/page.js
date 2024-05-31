@@ -31,7 +31,7 @@ const Page = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 gap-4 max-w-4xl mt-6 sm:w-full">
+        <div className="grid grid-cols-3 gap-4 max-w-8xl mt-6 sm:w-full">
           {/* Qui puoi inserire i tuoi progetti */}
           <div className="p-6 text-left w-96 shadow-md bg-white rounded-lg shadow-lg hover:scale-105">
             <div className="flex items-center">
@@ -93,6 +93,23 @@ const Page = () => {
             </div>
             <p className="mt-4 text-xl">
               next.js, tailwindcss, API integration
+            </p>
+          </div>
+          <div className="p-6 text-left w-96 shadow-md bg-white rounded-lg shadow-lg hover:scale-105">
+            <div className="flex items-center">
+              <Link href="album" className="flex items-center">
+                <h3 className="text-2xl font-bold">album</h3>
+                <Image
+                  className="ml-1"
+                  src="/icons/photo.svg"
+                  alt="album"
+                  width={30}
+                  height={30}
+                />
+              </Link>
+            </div>
+            <p className="mt-4 text-xl">
+              next.js, tailwindcss, photo gallery
             </p>
           </div>
         </div>
